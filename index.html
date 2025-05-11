@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranay Rajak | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#hero">PR</a>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="intro-text">Hello, I'm</p>
+                    <h1>Pranay Rajak</h1>
+                    <h2>Aspiring Software Developer & Robotics Engineer</h2>
+                    <p class="hero-description">I blend software development with automation skills to create cutting-edge solutions.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="primary-btn">View My Work</a>
+                        <a href="#contact" class="secondary-btn">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Placeholder for hero image -->
+                    <div class="tech-background"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate student at VESIT pursuing B.E. in Automation & Robotics. I'm fascinated by the intersection of software development and robotics, where code meets the physical world.</p>
+                    <p>My academic journey has equipped me with strong fundamentals in programming, control systems, and robotics. I'm constantly exploring new technologies and challenging myself with projects that combine hardware and software expertise.</p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <span class="detail-title"><i class="fas fa-graduation-cap"></i> Education:</span>
+                            <span class="detail-info">B.E. Automation & Robotics, VESIT</span>
+                        </div>
+                        <div class="detail">
+                            <span class="detail-title"><i class="fas fa-code"></i> Focus Areas: </span>
+                            <span class="detail-info"> Robotics, Web Development, Software Engineering</span>
+                        </div>
+                        <div class="detail">
+                            <span class="detail-title"><i class="fas fa-map-marker-alt"></i> Location:</span>
+                            <span class="detail-info">Mumbai, India</span>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="#contact" class="primary-btn">Let's Connect</a>
+                        <a href="resume.pdf" target="_blank" class="secondary-btn">Download CV <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="project-placeholder robot-img"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hologlyph Bot</h3>
+                        <div class="technologies">
+                            <span>ROS</span>
+                            <span>Ubuntu</span>
+                            <span>Python</span>
+                        </div>
+                        <p>Built Hologlyph Bots using Robot Operating System and Ubuntu. These intelligent robots can navigate autonomously while performing various tasks.</p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1tyOqgcie0vu4tAIrqMsQ6CFrkzjNUKm8?usp=sharing" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="project-placeholder surveillance-img"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Surveillance Robot</h3>
+                        <div class="technologies">
+                            <span>ESP32</span>
+                            <span>Web Server</span>
+                            <span>Motors</span>
+                        </div>
+                        <p>Developed a surveillance robot controlled via a web server. Features include directional control and live video feed using ESP32 Cam AI Thinker Module. The robot uses three wheels with two controlled by L298N Motor Driver.</p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1m9vJ4uU47jdBh5-fCiP5wwkwMNNRg18K?usp=sharing" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="project-placeholder diffuser-img"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bomb Diffuser Robot</h3>
+                        <div class="technologies">
+                            <span>ESP32</span>
+                            <span>Robotic Arm</span>
+                            <span>Arduino IDE</span>
+                        </div>
+                        <p>Developed a bomb diffuser robot controlled via a web server. Features include robotic arm control and live video feed using ESP32 Cam AI Thinker Module. The robot diffuses bomb remotely by cutting wires using gripper of robotic arm.</p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1mYkXurS24aFP3tQQk-P063ZIgzzq5zHZ?usp=sharing" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="Algorithms for Bomb Diffuser Bot.pdf" class="project-link"><i class="fab fa-github"></i> Algorithm</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="project-placeholder portfolio-img"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <div class="technologies">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <p>Designed and developed a responsive portfolio website to showcase my skills, projects, and achievements. The site features a clean, modern design with interactive elements.</p>
+                        <div class="project-links">
+                            <a href="https://amazing-tiramisu-cb6518.netlify.app/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live Site</a>
+                            <a href="https://github.com/PranayRajak-1234/Portfolio" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="project-placeholder landing-img"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Landing Page</h3>
+                        <div class="technologies">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <p>Created a responsive landing page with modern design elements, animations, and interactive components to showcase products or services effectively.</p>
+                        <div class="project-links">
+                            <a href="https://pranay-rajak-landing-page.netlify.app/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live Site</a>
+                            <a href="https://github.com/PranayRajak-1234/Landing-Page" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="project-placeholder travel-img"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Dart Travel App</h3>
+                        <div class="technologies">
+                            <span>Dart</span>
+                            <span>OOPS</span>
+                            <span>Application</span>
+                        </div>
+                        <p>Created a travel booking application with Dart using the four pillars of OOPS. It consists the concepts of Abstraction, Encapsulation, Inheritance, and Polymorphism.</p>
+                        <div class="project-links">
+                            <!-- <a href="https://pranay-rajak-landing-page.netlify.app/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live Site</a> -->
+                            <a href="https://github.com/PranayRajak-1234/Dart-Travel-Booking-App" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Expertise</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <h4>HTML</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <h4>CSS</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><img src="c.svg" alt="C Language Icon" width="40" height="40"></div>
+                            <h4>C</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><img src="c++.svg" alt="C++ Icon" width="40" height="40"></div>
+                            <h4>C++</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <h4>Java</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <h4>Python</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Technologies & Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                            <h4>Git</h4>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                            <h4>ROS</h4>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                            <h4>Ubuntu</h4>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><img src="matlab.svg" alt="MATLAB Logo" width="40" height="40"></div>
+                            <h4>MATLAB</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Section -->
+    <section id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2>Certifications</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-logo oracle"></div>
+                    <div class="certification-content">
+                        <h3>Oracle Cloud Infrastructure AI Certified</h3>
+                        <p>Foundations Associate</p>
+                        <span class="certification-date">Oracle, 2024</span>
+                        <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=E0F8A119453F1A82F20548A2C5F49C4FD437D8A4806FC2B9E6B41E82CD875084" target="_blank" class="certification-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-logo nptel"></div>
+                    <div class="certification-content">
+                        <h3>Python for Data Science</h3>
+                        <p>Comprehensive course on Python applications in data science</p>
+                        <span class="certification-date">NPTEL, 2024</span>
+                        <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS54S55020017730002083" target="_blank" class="certification-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-logo eyantra"></div>
+                    <div class="certification-content">
+                        <h3>e-Yantra Robotics Competition</h3>
+                        <p>Participated in the prestigious robotics competition</p>
+                        <span class="certification-date">e-Yantra, 2023-24</span>
+                        <a href="e-Yantra Robotics Competition 2023-24.pdf" target="_blank" class="certification-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-logo data-science"></div>
+                    <div class="certification-content">
+                        <h3>International Student Workshop on Data Science</h3>
+                        <p>Participated in a global workshop on data science techniques</p>
+                        <span class="certification-date">Brain-o-vision, 2024</span>
+                        <a href="International Student Workshop 2024 on Data Science using Python by Brainovision.pdf" target="_blank" class="certification-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-logo matlab"></div>
+                    <div class="certification-content">
+                        <h3>MATLAB Certifications</h3>
+                        <p>MATLAB Onramp & MATLAB Simulink Onramp</p>
+                        <span class="certification-date">MathWorks, 2023</span>
+                        <div class="multiple-links">
+                            <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=2e2e4b17-f81b-43b2-9c56-965fcf772140&" target="_blank" class="certification-link">Simulink Certificate <i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=82675f3f-727b-48f8-8e70-a92590f0c55e&" target="_blank" class="certification-link">MATLAB Certificate <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Socials Section -->
+    <section id="socials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Connect With Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/pranay-rajak/" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/PranayRajak-1234" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:pranayrajak04@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Interested in working together or have a question? Feel free to reach out.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Mumbai, Maharashtra, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>pranayrajak04@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 9326013100</p>
+                        </div>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#hero">PR</a>
+                </div>
+                <p class="copyright">&copy; 2025 Pranay Rajak. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
